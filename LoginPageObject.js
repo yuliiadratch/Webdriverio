@@ -2,7 +2,7 @@ import Page from './page'
 
 class loginPO extends Page {
     open() {
-        browser.url('/');
+        browser.url('myUrl');
     }
     providecredentials() {
         $('#user_email').setValue('myemail@example.com')
