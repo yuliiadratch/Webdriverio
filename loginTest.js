@@ -2,7 +2,7 @@ import loginPO from '../classes/loginPO';
 const Login = new loginPO();
 let message = '#flashnotice-body';
 
-describe("Create, edit, delete the key pair", function() {
+describe("Test successful login", function() {
     it ('Login', () => {
         Login.open();
         Login.providecredentials();
